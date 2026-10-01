@@ -285,4 +285,10 @@ footer a{color:#AFC0B5;text-decoration:none;display:block;margin-bottom:8px}
 <div class="note">Concept only, not the live website. Videos, portraits and client words are placeholders.</div>
 </footer>
 
+<script>
+(function(){var vids=document.querySelectorAll('video');function go(v){v.muted=true;var p=v.play();if(p&&p.catch)p.catch(function(){});}
+vids.forEach(function(v){go(v);v.addEventListener('canplay',function(){if(v.paused)go(v);});
+if('IntersectionObserver' in window){new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting&&v.paused)go(v);});}).observe(v);}});
+['touchstart','scroll','click'].forEach(function(ev){window.addEventListener(ev,function(){vids.forEach(function(v){if(v.paused)go(v);});},{once:true,passive:true});});})();
+</script>
 </body></html>
