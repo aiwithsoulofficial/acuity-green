@@ -1,0 +1,288 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Acuity Green Concept</title>
+<meta name="description" content="Acuity Green gives founders and government-facing organisations their own senior lawyer for a day a week or a day a month, on a fixed fee. Brisbane, Australia-wide.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&family=Libre+Caslon+Text:ital@0;1&family=Figtree:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{color-scheme:light;
+--linen:#F3EDE2;--ivory:#FBF8F2;--green:#355445;--green-deep:#2A4337;--ink:#22332A;--gold:#A8874F;--gold-lt:#CDB283;--gold-pale:#E9DCC2;--text:#4A4840;--muted:#7C786C;--line:#DCCFB6}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{font-family:Figtree,'Helvetica Neue',Arial,sans-serif;color:var(--text);background:var(--linen);font-size:17px;line-height:1.7;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+.tex{background-color:var(--linen);background-image:url(assets/linen.jpg);background-size:cover;background-position:center}
+.tex-dark{background-color:var(--green);position:relative}
+.tex-dark::before{content:"";position:absolute;inset:0;background:url(assets/linen-gray.jpg) center/cover;mix-blend-mode:multiply;opacity:.35;pointer-events:none}
+.tex-dark>*{position:relative}
+h1,h2,h3{font-family:'Libre Caslon Display',Georgia,serif;font-weight:400;color:var(--ink);text-wrap:balance;letter-spacing:-.005em}
+em{font-family:'Libre Caslon Text',Georgia,serif;font-style:italic}
+.wrap{max-width:1180px;margin:0 auto;padding-inline:28px}
+.label{font-size:12px;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:var(--gold);display:flex;align-items:center;gap:14px}
+.label::before{content:"";width:34px;height:1px;background:var(--gold)}
+.btn{display:inline-block;padding:15px 30px;font-size:14px;font-weight:600;letter-spacing:.06em;text-decoration:none;border:1px solid var(--green);background:var(--green);color:var(--ivory);transition:.25s}
+.btn:hover,.btn:focus-visible{background:var(--gold);border-color:var(--gold);color:#fff}
+.btn.ghost{background:transparent;color:var(--green)}
+.btn.ghost:hover{background:var(--green);color:var(--ivory)}
+a:focus-visible{outline:2px solid var(--gold);outline-offset:3px}
+.ribbon{background:var(--green-deep);color:var(--gold-pale);font-size:13px;text-align:center;padding:8px 16px;letter-spacing:.04em}
+header{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:rgba(251,248,242,.94);backdrop-filter:blur(6px);border-bottom:1px solid var(--line)}
+.nav{display:flex;align-items:center;justify-content:space-between;gap:20px;max-width:1180px;margin:0 auto;padding:14px 28px}
+.brand{display:flex;align-items:center;gap:12px;text-decoration:none}
+.brand img{height:42px}
+.wm{font-family:'Libre Caslon Display',serif;font-size:21px;letter-spacing:.12em;color:var(--ink)}
+.navlinks{display:flex;align-items:center;gap:30px;font-size:15px}
+.navlinks a{color:var(--ink);text-decoration:none}
+.navlinks a:hover{color:var(--gold)}
+.navlinks .btn{color:var(--ivory);padding:12px 22px}
+
+/* cinematic hero */
+.hero{position:relative;min-height:min(86vh,760px);display:flex;align-items:center;padding-block:96px;overflow:hidden;background:var(--green-deep)}
+.hero .bg{position:absolute;inset:-2%;background:url(assets/hero.jpg) 70% center/cover no-repeat;animation:drift 26s ease-in-out infinite alternate}
+.hero::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(30,48,39,.94) 0%,rgba(30,48,39,.82) 38%,rgba(30,48,39,.25) 75%,rgba(30,48,39,.1) 100%),linear-gradient(0deg,rgba(30,48,39,.55),transparent 35%)}
+.hero .wrap{position:relative;z-index:1;width:100%}
+.hero .copy{max-width:620px}
+.hero .label{color:var(--gold-lt)}.hero .label::before{background:var(--gold-lt)}
+.hero h1{color:var(--ivory);font-size:clamp(40px,5.2vw,68px);line-height:1.05;margin:22px 0 24px}
+.hero h1 em{color:var(--gold-lt)}
+.hero p.sub{color:#E4E9E2;font-size:19px;margin-bottom:34px}
+.hero .btn{background:var(--gold);border-color:var(--gold);color:#fff}
+.hero .btn:hover{background:var(--ivory);border-color:var(--ivory);color:var(--green)}
+.watch{display:inline-flex;align-items:center;gap:12px;color:var(--ivory);text-decoration:none;font-weight:600;font-size:15px;padding:10px 4px}
+.watch i{width:44px;height:44px;border-radius:50%;border:1px solid var(--gold-lt);display:flex;align-items:center;justify-content:center}
+.watch i::after{content:"";border-style:solid;border-width:7px 0 7px 11px;border-color:transparent transparent transparent var(--gold-lt);margin-left:3px}
+.hero .trust{border-top-color:rgba(205,178,131,.35);color:#C9D3CB}.hero .trust b{color:var(--ivory)}
+@keyframes drift{from{transform:scale(1.02) translateX(0)}to{transform:scale(1.09) translateX(-1.5%)}}
+@media(prefers-reduced-motion:reduce){.hero .bg{animation:none}}
+/* placeholders */
+.ph-vid{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.intro-vid .ph::before{z-index:1}.intro-vid .ph .ph-txt{z-index:2}
+.vid-ui{position:absolute;top:18px;right:18px;z-index:2;display:flex;align-items:center;gap:8px;font-size:12px;letter-spacing:.08em;color:var(--ivory);background:rgba(30,48,39,.6);padding:6px 12px}
+.vid-ui .dot{width:8px;height:8px;border-radius:50%;background:#d9a441;animation:pulse 1.6s ease-in-out infinite}
+@keyframes pulse{50%{opacity:.25}}
+.i-studio{background-image:url(assets/studio.jpg)}.i-founders{background-image:url(assets/founders.jpg)}.i-board{background-image:url(assets/boardroom.jpg)}.i-port{background-image:url(assets/portrait.jpg)}
+.ph{position:relative;background-size:cover;background-position:center;overflow:hidden;max-width:100%}
+.ph::before{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(30,48,39,.15),rgba(30,48,39,.72))}
+.ph .ph-txt{position:absolute;left:18px;right:18px;bottom:16px;color:var(--ivory);font-size:13.5px;line-height:1.45}
+.ph .ph-txt b{display:inline-block;font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;background:var(--gold-pale);color:var(--green-deep);padding:4px 9px;margin-bottom:8px;font-weight:600}
+.ph.play-me::after{content:"";position:absolute;top:40%;left:50%;width:58px;height:58px;margin:-29px 0 0 -29px;border-radius:50%;background:rgba(251,248,242,.92)}
+.ph.play-me .tri{position:absolute;top:40%;left:50%;margin:-9px 0 0 -5px;border-style:solid;border-width:9px 0 9px 15px;border-color:transparent transparent transparent var(--green);z-index:2}
+.intro-vid{padding-block:0 0;background:var(--green-deep)}
+.intro-vid .ph{aspect-ratio:21/8;min-height:320px}
+.intro-vid .ph .ph-txt{left:50%;right:auto;transform:translateX(-50%);bottom:30px;text-align:center;max-width:560px;font-size:15px}
+.lane .ph{aspect-ratio:auto;height:240px;max-width:none;margin:-46px -42px 30px}
+
+/* old hero */
+.ctas{display:flex;gap:14px;flex-wrap:wrap}
+.trust{display:flex;flex-wrap:wrap;gap:10px 28px;margin-top:38px;padding-top:22px;border-top:1px solid var(--line);font-size:14px;color:var(--muted)}
+.trust b{color:var(--ink);font-weight:600}
+.film{position:relative;aspect-ratio:4/4.3;max-width:100%;background:linear-gradient(160deg,#3d5e4e,#243a2f);box-shadow:0 30px 60px rgba(34,51,42,.22)}
+.film::before{content:"";position:absolute;inset:0;background:url(assets/linen-gray.jpg) center/700px;mix-blend-mode:multiply;opacity:.4}
+.film::after{content:"";position:absolute;inset:14px;border:1px solid rgba(205,178,131,.6);pointer-events:none}
+.film .mark{position:absolute;top:50%;left:50%;width:46%;transform:translate(-50%,-62%);opacity:.18}
+.duo{position:absolute;left:0;right:0;bottom:116px;display:flex;justify-content:center;gap:20px}
+.duo span{width:96px;height:120px;border:1px dashed rgba(233,220,194,.55);display:flex;align-items:center;justify-content:center;text-align:center;font-size:11px;color:var(--gold-pale);padding:6px;line-height:1.35}
+.play{position:absolute;top:34%;left:50%;transform:translate(-50%,-50%);width:84px;height:84px;border-radius:50%;background:rgba(251,248,242,.95);display:flex;align-items:center;justify-content:center;box-shadow:0 10px 30px rgba(0,0,0,.25)}
+.play::after{content:"";border-style:solid;border-width:12px 0 12px 20px;border-color:transparent transparent transparent var(--green);margin-left:6px}
+.film .cap{position:absolute;left:34px;right:34px;bottom:30px;color:var(--ivory)}
+.film .cap b{display:block;font-family:'Libre Caslon Display',serif;font-weight:400;font-size:23px;line-height:1.25}
+.film .cap i{font-style:normal;font-size:13px;color:var(--gold-lt);letter-spacing:.06em}
+.tag{position:absolute;top:30px;left:30px;z-index:2;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--green-deep);background:var(--gold-pale);padding:5px 11px;font-weight:600}
+/* moment */
+.moment{padding-block:96px;background:var(--ivory);border-block:1px solid var(--line)}
+.moment-grid{display:grid;grid-template-columns:1fr 1fr;gap:72px;align-items:start}
+h2{font-size:clamp(32px,3.6vw,46px);line-height:1.12;margin:18px 0 20px}
+.moment p{font-size:18px;margin-bottom:16px;max-width:560px}
+.changes{display:grid;gap:0;border-top:1px solid var(--line)}
+.changes div{padding:24px 0;border-bottom:1px solid var(--line)}
+.changes h3{font-size:24px;margin-bottom:6px}
+.changes p{font-size:16px;margin:0}
+/* lanes */
+.lanes{padding-block:100px}
+.lanes .intro{max-width:680px}
+.lane-grid{display:grid;grid-template-columns:1fr 1fr;gap:28px;margin-top:48px}
+.lane{background:var(--ivory);border:1px solid var(--line);padding:46px 42px 40px;display:flex;flex-direction:column;position:relative}
+.lane::before{content:"";position:absolute;top:0;left:42px;right:42px;height:2px;background:var(--gold)}
+.lane .who{font-size:12px;font-weight:600;letter-spacing:.18em;text-transform:uppercase;color:var(--gold)}
+.lane h3{font-size:30px;line-height:1.15;margin:12px 0 18px}
+.lane ul{list-style:none;display:grid;gap:12px;margin-bottom:28px;flex:1}
+.lane li{padding-left:24px;position:relative;font-size:16px}
+.lane li::before{content:"";position:absolute;left:0;top:.75em;width:12px;height:1px;background:var(--gold)}
+.lane .lead{display:flex;align-items:center;gap:14px;border-top:1px solid var(--line);padding-top:20px;font-size:15px;color:var(--ink)}
+.lane .lead span{width:44px;height:44px;border-radius:50%;border:1px dashed var(--gold);display:flex;align-items:center;justify-content:center;font-family:'Libre Caslon Display',serif;color:var(--gold);font-size:18px}
+.lane .lead a{margin-left:auto;color:var(--green);font-weight:600;text-decoration:none;border-bottom:1px solid var(--gold)}
+/* how */
+.how{padding-block:96px;background:var(--ivory);border-block:1px solid var(--line)}
+.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:40px;margin-top:44px}
+.step .n{font-family:'Libre Caslon Display',serif;font-size:44px;color:var(--gold);line-height:1}
+.step h3{font-size:24px;margin:14px 0 8px}
+.step p{font-size:16px}
+/* videos */
+.videos{padding-block:100px;color:#DDE5DF}
+.videos h2{color:var(--ivory)}
+.videos .label{color:var(--gold-lt)}.videos .label::before{background:var(--gold-lt)}
+.videos .intro{max-width:660px;font-size:18px}
+.vgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-top:48px}
+.v{background:rgba(251,248,242,.05);border:1px solid rgba(205,178,131,.35);display:flex;flex-direction:column}
+.v .thumb{aspect-ratio:16/10;max-width:100%;position:relative;background:linear-gradient(150deg,rgba(205,178,131,.16),rgba(0,0,0,.18));display:flex;align-items:center;justify-content:center}
+
+
+.v .body{padding:22px 24px 26px}
+.v .by{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--gold-lt)}
+.v h3{color:var(--ivory);font-size:21px;line-height:1.3;margin-top:8px}
+.vnote{margin-top:26px;font-size:13px;color:#AFC0B5}
+/* people */
+.people{padding-block:100px}
+.pgrid{display:grid;grid-template-columns:1fr 1fr;gap:56px;margin-top:48px}
+.person{display:grid;grid-template-columns:190px 1fr;gap:30px;align-items:start}
+.photo{aspect-ratio:4/5;max-width:100%;border:1px solid var(--line);background:var(--ivory);position:relative;display:flex;align-items:center;justify-content:center;text-align:center;font-size:12px;color:var(--muted);padding:14px}
+.photo{padding:0}
+.person h3{font-size:30px}
+.creds{font-size:13px;letter-spacing:.04em;color:var(--gold);margin:6px 0 14px;font-weight:600}
+.person p{font-size:16px}
+.person .human{font-family:'Libre Caslon Text',serif;font-style:italic;color:var(--green);margin-top:12px}
+/* fees */
+.fees{padding-block:100px;background:var(--ivory);border-block:1px solid var(--line)}
+.fees-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:72px;align-items:center}
+.fees p{font-size:18px;margin-bottom:14px;max-width:560px}
+.circle{border:1px solid var(--gold);padding:38px 36px;position:relative;background:var(--linen)}
+.circle h3{font-size:26px;margin:10px 0 12px}
+.circle p{font-size:16px;margin:0}
+.quote-ph{margin-top:20px;border:1px dashed var(--line);padding:22px;font-size:14px;color:var(--muted);background:var(--ivory)}
+/* cta */
+.cta{padding-block:110px;text-align:center;color:#DDE5DF}
+.cta h2{color:var(--ivory);max-width:760px;margin-inline:auto}
+.cta p{font-size:19px;max-width:600px;margin:0 auto 34px}
+.cta .btn{background:var(--gold);border-color:var(--gold);color:#fff}
+.cta .btn:hover{background:var(--ivory);color:var(--green)}
+footer{background:var(--green-deep);color:#AFC0B5;font-size:14px;padding-block:64px 0}
+.fgrid{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:44px;padding-bottom:44px}
+footer img{height:92px;margin-bottom:18px}
+footer h4{color:var(--gold-lt);font-size:12px;letter-spacing:.2em;text-transform:uppercase;margin-bottom:12px;font-weight:600}
+footer a{color:#AFC0B5;text-decoration:none;display:block;margin-bottom:8px}
+.ack{font-size:13px;line-height:1.7;max-width:420px}
+.legal{border-top:1px solid rgba(205,178,131,.25);padding-block:20px;font-size:12.5px}
+.note{background:var(--gold-pale);color:var(--ink);font-size:13px;text-align:center;padding:12px 20px}
+@media(max-width:980px){.hero-grid,.moment-grid,.lane-grid,.fees-grid,.pgrid{grid-template-columns:1fr;gap:44px}.steps,.vgrid{grid-template-columns:1fr 1fr}.fgrid{grid-template-columns:1fr}.navlinks a:not(.btn){display:none}.film{max-width:480px}}
+@media(max-width:620px){.lane .ph{margin:-38px -24px 26px;height:200px}.intro-vid .ph{aspect-ratio:auto;min-height:380px}.intro-vid .ph.play-me::after,.intro-vid .ph.play-me .tri{top:26%}.intro-vid .ph .ph-txt{left:18px;right:18px;transform:none;font-size:14px}.hero{min-height:0;padding-block:72px}body{font-size:16px}.wrap{padding-inline:18px}.nav{padding:12px 18px}.wm{font-size:16px}.brand img{height:34px}.navlinks .btn{padding:10px 14px;font-size:13px}.hero{padding-block:52px 64px}.steps,.vgrid{grid-template-columns:1fr}.lane{padding:38px 24px 30px}.lane::before{left:24px;right:24px}.person{grid-template-columns:1fr}.photo{max-width:200px}.duo span{width:76px;height:96px}.moment,.lanes,.how,.videos,.people,.fees{padding-block:68px}.cta{padding-block:76px}}
+@media(prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+</style>
+
+</head><body>
+<div class="ribbon">Concept preview for Janet &amp; Kate - a new look for acuitygreen.com.au</div>
+<header><nav class="nav">
+<a class="brand" href="#top"><img src="assets/mark.png" alt=""><span class="wm">ACUITY GREEN</span></a>
+<div class="navlinks"><a href="#who">Who we help</a><a href="#how">How it works</a><a href="#videos">Videos</a><a href="#team">Janet &amp; Kate</a><a class="btn" href="#book">Book a free consultation</a></div>
+</nav></header>
+
+<main id="top">
+<section class="hero"><div class="bg" role="img" aria-label="Sunlit law office with a walnut desk, brass lamp and green leather chair"></div><div class="wrap"><div class="copy">
+<div class="label">Lawyers for growing companies &middot; Brisbane</div>
+<h1>Your own senior lawyer, in your corner <em>before you sign.</em></h1>
+<p class="sub">Acuity Green gives founders and organisations that deal with government their own experienced lawyer for a day a week or a day a month, on one fixed fee. We get to know your business, catch the risk early and explain everything in plain English.</p>
+<div class="ctas"><a class="btn" href="#book">Book a free consultation</a><a class="watch" href="#intro"><i></i>Meet Janet &amp; Kate in 2 minutes</a></div>
+<div class="trust"><span><b>Admitted 2000 &amp; 2003</b></span><span><b>Commonwealth &amp; Queensland Government</b> experience</span><span><b>Fixed fees</b>, no meter running</span></div>
+</div></div></section>
+<section class="intro-vid" id="intro"><div class="ph i-studio"><video class="ph-vid" autoplay muted loop playsinline preload="auto" poster="assets/intro-poster.jpg"><source src="assets/intro.mp4" type="video/mp4"></video><div class="vid-ui"><span class="dot"></span>Playing &middot; intro film</div><div class="ph-txt"><b>Video placeholder</b><br>Janet &amp; Kate side by side on camera, 2 minutes: who they are, who they help, and what it's like to have your own lawyer. Filmed in the Brisbane shoot.</div></div></section>
+
+<section class="moment"><div class="wrap moment-grid">
+<div>
+<div class="label">Sound familiar?</div>
+<h2>The contract's on your desk. And every call to a law firm starts the meter.</h2>
+<p>Big companies have a lawyer on the leadership team. It's called a General Counsel, and their job is to know the business well enough to see trouble coming.</p>
+<p>Most growing businesses can't justify one full-time. So they go without, sign things they half understand, and call a lawyer once something has already gone wrong. By then it's expensive.</p>
+<p>Acuity Green gives you that senior lawyer, for the time you actually need.</p>
+</div>
+<div class="changes">
+<div><h3>You sign knowing what you've agreed to.</h3><p>Customer contracts, investor documents, supplier terms. Read by someone who knows what your business can live with.</p></div>
+<div><h3>You hear about the risk while it's cheap to fix.</h3><p>We're there during the negotiation, the tender and the board paper, not after the dispute.</p></div>
+<div><h3>You get a straight answer you can act on.</h3><p>Plain English and a clear recommendation. You won't get a 20-page memo you have to decode.</p></div>
+<div><h3>You stop carrying it alone.</h3><p>Someone senior to sense-check the decision before you make it.</p></div>
+</div>
+</div></section>
+
+<section class="lanes tex" id="who"><div class="wrap">
+<div class="intro"><div class="label">Who we help</div>
+<h2>Two kinds of business. One trusted legal team.</h2></div>
+<div class="lane-grid">
+<div class="lane"><div class="ph i-founders"><div class="ph-txt"><b>Photo placeholder</b><br>Janet with a founder at their desk, going through a contract together.</div></div><div class="who">Founders &amp; startups</div>
+<h3>You've raised money. Now the contracts are coming.</h3>
+<ul>
+<li>Your investors expect your legals to be in order.</li>
+<li>You're not sure who owns the code your contractors wrote.</li>
+<li>A big customer has sent a 40-page agreement and wants it signed this week.</li>
+<li>You want a lawyer who's there from the start, not one you only call in a crisis.</li>
+</ul>
+<div class="lead"><span>J</span>Led by Janet Hawke<a href="#book">Talk to Janet</a></div></div>
+<div class="lane"><div class="ph i-board"><div class="ph-txt"><b>Photo placeholder</b><br>Kate in a client boardroom with the leadership team.</div></div><div class="who">Organisations that deal with government</div>
+<h3>Tenders, regulators and a board that wants answers.</h3>
+<ul>
+<li>You're tendering for government work and need it legally sound.</li>
+<li>The rules in your industry keep changing.</li>
+<li>Your board is asking whether you're compliant, and you want to answer with confidence.</li>
+<li>Banking, insurance, energy, defence, infrastructure, technology, privacy and data.</li>
+</ul>
+<div class="lead"><span>K</span>Led by Kate Stewart<a href="#book">Talk to Kate</a></div></div>
+</div>
+</div></section>
+
+<section class="how" id="how"><div class="wrap">
+<div class="label">How it works</div>
+<h2>Like having a GP for your legal matters.</h2>
+<div class="steps">
+<div class="step"><div class="n">1</div><h3>A free first conversation</h3><p>Tell us where the business is heading and what's worrying you. We'll tell you plainly whether we're the right fit.</p></div>
+<div class="step"><div class="n">2</div><h3>We get to know your business</h3><p>A set day each week or each month, on a fixed fee or retainer. Your goals, your contracts and how much risk you're comfortable with.</p></div>
+<div class="step"><div class="n">3</div><h3>We're on call when it matters</h3><p>Pick up the phone without watching the clock. When something needs a niche lawyer, we brief them, keep the cost contained and explain their answer to you.</p></div>
+</div>
+</div></section>
+
+<section class="videos tex-dark" id="videos"><div class="wrap">
+<div class="label">Plain-English answers</div>
+<h2>Learn from Janet &amp; Kate before you ever pick up the phone.</h2>
+<p class="intro">Short videos on the legal questions growing businesses ask most. Free to watch, no jargon.</p>
+<div class="vgrid">
+<div class="v"><div class="thumb ph play-me i-studio"><span class="tri"></span><div class="ph-txt"><b>Video placeholder</b><br>Janet to camera, 90 sec: IP assignments in plain English.</div></div><div class="body"><div class="by">Janet &middot; Founders</div><h3>Who owns the code your contractor wrote?</h3></div></div>
+<div class="v"><div class="thumb ph play-me i-studio"><span class="tri"></span><div class="ph-txt"><b>Video placeholder</b><br>Janet to camera, 90 sec: the five clauses to check first.</div></div><div class="body"><div class="by">Janet &middot; Founders</div><h3>What to check before you sign your first big customer contract</h3></div></div>
+<div class="v"><div class="thumb ph play-me i-studio"><span class="tri"></span><div class="ph-txt"><b>Video placeholder</b><br>Janet to camera, 90 sec: what investors expect to see.</div></div><div class="body"><div class="by">Janet &middot; Founders</div><h3>Getting your legals in order after you raise money</h3></div></div>
+<div class="v"><div class="thumb ph play-me i-studio"><span class="tri"></span><div class="ph-txt"><b>Video placeholder</b><br>Kate to camera, 90 sec: tender terms and how to respond.</div></div><div class="body"><div class="by">Kate &middot; Government &amp; regulated</div><h3>Tendering for government work: the legal side</h3></div></div>
+<div class="v"><div class="thumb ph play-me i-studio"><span class="tri"></span><div class="ph-txt"><b>Video placeholder</b><br>Kate to camera, 90 sec: privacy obligations made simple.</div></div><div class="body"><div class="by">Kate &middot; Government &amp; regulated</div><h3>Privacy and data: what your business needs to have in place</h3></div></div>
+<div class="v"><div class="thumb ph play-me i-studio"><span class="tri"></span><div class="ph-txt"><b>Video placeholder</b><br>Janet &amp; Kate together, 2 min: the GP of the legal world.</div></div><div class="body"><div class="by">Janet &amp; Kate</div><h3>What does a General Counsel actually do?</h3></div></div>
+</div>
+<p class="vnote">Video library to film in one Brisbane session. Topics are suggestions for Janet and Kate to confirm.</p>
+</div></section>
+
+<section class="people tex" id="team"><div class="wrap">
+<div class="label">Who you'll be working with</div>
+<h2>Janet &amp; Kate. Two senior lawyers, two very different strengths.</h2>
+<div class="pgrid">
+<div class="person"><div class="photo ph i-port"><div class="ph-txt"><b>Portrait placeholder</b><br>Janet, warm professional portrait, linen backdrop, natural light.</div></div><div><h3>Janet Hawke</h3><div class="creds">BCom LLB (Hons) BBus &middot; QUT &middot; UQ &middot; Admitted 2000</div><p>Janet works with contracts, technology, intellectual property and procurement. Her career covers top-tier private practice, senior lawyer for the Commonwealth Government, and leading the public sector legal team at a global cloud software company.</p><p class="human">Janet's favourite work is with founders at the very beginning, helping them build it properly from day one.</p></div></div>
+<div class="person"><div class="photo ph i-port"><div class="ph-txt"><b>Portrait placeholder</b><br>Kate, warm professional portrait, linen backdrop, natural light.</div></div><div><h3>Kate Stewart</h3><div class="creds">BBus LLB LLM Executive MBA &middot; QUT &middot; MIT (Sloan) &middot; AICD &middot; Admitted 2003</div><p>Kate's career covers banking, finance, insurance, aviation and defence, with senior executive roles in Commonwealth and Queensland Government and work on some of Australia's biggest national infrastructure projects. She focuses on technology, privacy and data, and on working with government and regulators.</p></div></div>
+</div>
+</div></section>
+
+<section class="fees"><div class="wrap fees-grid">
+<div><div class="label">How we charge</div>
+<h2>One fixed fee. No meter running when you call.</h2>
+<p>You'll know what your legal support costs before the month starts. Fixed fees and retainers mean you can ask the small question early, which is usually what stops it becoming a big one.</p>
+<div class="quote-ph ph i-studio" style="aspect-ratio:16/8;border:0;padding:0"><div class="ph-txt"><b>Video testimonial placeholder</b><br>A founder or CEO client, 60 seconds on what changed once they had their own lawyer. Real client words only.</div></div>
+</div>
+<div class="circle"><div class="label">Coming soon</div><h3>The General Counsel Circle</h3><p>As we grow, your business will be looked after by a small circle of senior lawyers who all know your file. If one of us is away, someone who already knows you picks up the phone.</p></div>
+</div></section>
+
+<section class="cta tex-dark" id="book"><div class="wrap">
+<h2>Bring us the thing that's keeping you up at night.</h2>
+<p>Book a free consultation with Janet or Kate. You'll leave with a clear view of where your legal risk sits, whether or not we work together.</p>
+<a class="btn" href="#book">Book a free consultation</a>
+</div></section>
+</main>
+
+<footer><div class="wrap fgrid">
+<div><img src="assets/logo-gold.png" alt="Acuity Green"><p class="ack">Acuity Green acknowledges the traditional custodians of the lands on which we live and work, and their deep and continuing connection to Country. We pay our respects to them and their cultures, and to Elders past and present.</p></div>
+<div><h4>Visit</h4><p>Suite 1205, 10 Market St<br>Brisbane City QLD 4000</p><p style="margin-top:10px">Clients Australia-wide</p></div>
+<div><h4>Explore</h4><a href="#who">Who we help</a><a href="#how">How it works</a><a href="#videos">Videos</a><a href="#team">Janet &amp; Kate</a></div>
+</div>
+<div class="wrap legal">Copyright &copy; 2026 Acuity Green Pty Ltd (ABN 28 675 081 400). All rights reserved. For legal services, liability is limited by a scheme approved under the Professional Standards Legislation.</div>
+<div class="note">Concept only, not the live website. Videos, portraits and client words are placeholders.</div>
+</footer>
+
+</body></html>
